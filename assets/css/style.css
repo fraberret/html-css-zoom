@@ -25,7 +25,7 @@ header{
 
 
 .container{
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     
 
@@ -36,6 +36,7 @@ header{
     margin-left: -0.1rem;
     margin-right: -0.1rem;
     padding-top: 50px;
+    padding-bottom: 20px;
    
     
 }
@@ -61,4 +62,64 @@ img{
     bottom: 4px;
     color: white;
     padding: 5px;
+}
+
+
+
+footer{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+.footer_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.button_section{
+    text-align: center;
+    padding-right: 20px;
+    
+    
+}
+.button{
+    font-size: 25px;
+    padding-bottom: 5px;
+    
+}
+
+.green{
+    color: green;
+}
+
+.footer_right{
+    background-color: #474747;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: red;
+    
+}
+
+.arrow{
+    padding-right:20px ;
+}
+
+.padding{
+    padding-left: 5px;
+}
+
+.footer_contenitor{
+    width: 100%;
 }
